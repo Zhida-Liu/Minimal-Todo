@@ -31,6 +31,7 @@
         <activity android:name=".AddToDo.AddToDoActivity"
             android:screenOrientation="portrait"
             android:parentActivityName=".Main.MainActivity"
+            android:windowSoftInputMode="adjustNothing"
             />
 
         <activity android:name=".About.AboutActivity"
